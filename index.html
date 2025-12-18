@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkyBlock Ironman Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="title" id="guideTitle">Guide</div>
+      <div class="sub" id="guideVersion"></div>
+    </div>
+
+    <div class="controls">
+      <input id="search" class="input" placeholder="Search steps…" />
+      <select id="filter" class="select">
+        <option value="all">All</option>
+        <option value="incomplete">Incomplete</option>
+        <option value="complete">Completed</option>
+      </select>
+      <button id="jump" class="btn">Jump to Last Completed</button>
+      <button id="minimize" class="btn">Minimize Completed</button>
+      <button id="reset" class="btn danger">Reset</button>
+    </div>
+  </header>
+
+  <section class="progressWrap">
+    <div class="progressLine">
+      <div id="progressBar" class="progressBar"></div>
+    </div>
+    <div class="progressMeta">
+      <span id="progressPct">0%</span>
+      <span id="progressText">Progress saved</span>
+    </div>
+  </section>
+
+  <main class="layout">
+    <aside class="sidebar" id="toc"></aside>
+    <section class="content" id="content"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
