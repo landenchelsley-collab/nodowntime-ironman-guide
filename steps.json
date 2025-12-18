@@ -1,0 +1,52 @@
+{
+  "title": "Hypixel SkyBlock Ironman Guide",
+  "version": "v1",
+  "sections": [
+    {
+      "id": "early",
+      "title": "Early Game",
+      "steps": [
+        {
+          "id": "early-01",
+          "title": "Spawn island baseline",
+          "details": [
+            "Collect starter items.",
+            "Unlock basic collections and minions."
+          ],
+          "tags": ["early"],
+          "links": [],
+          "notes": "Replace this with your real pathing."
+        },
+        {
+          "id": "early-02",
+          "title": "Get Mining and Farming moving",
+          "details": [
+            "Prioritize consistent minion income.",
+            "Start skill leveling routines."
+          ],
+          "tags": ["early", "skills"],
+          "links": [],
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "mid",
+      "title": "Mid Game",
+      "steps": [
+        {
+          "id": "mid-01",
+          "title": "Dungeon readiness checklist",
+          "details": [
+            "Survivability baseline.",
+            "Damage baseline.",
+            "Utility items baseline."
+          ],
+          "tags": ["mid", "dungeons"],
+          "links": [],
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
